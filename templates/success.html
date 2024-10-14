@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL Shortened</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #f4f4f4; text-align: center; padding-top: 50px; }
+        .container { background: #fff; padding: 20px; margin: auto; width: 400px; border-radius: 5px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        a { color: #3498db; text-decoration: none; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Your shortened URL:</h2>
+        <p><a href="{{.}}">{{.}}</a></p>
+        <p><a href="/">Shorten another URL</a></p>
+    </div>
+</body>
+</html>

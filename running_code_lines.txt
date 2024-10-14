@@ -1,0 +1,10 @@
+cd C:\Users\אלאור\url-shortener
+
+go mod tidy
+go run main.go handlers.go models.go
+
+
+
+sqlite3 urlshortener.db
+.tables
+SELECT * FROM urls;

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL Shortener</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #f4f4f4; text-align: center; padding-top: 50px; }
+        form { background: #fff; padding: 20px; margin: auto; width: 300px; border-radius: 5px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        input[type="text"] { width: 100%; padding: 10px; margin-bottom: 10px; }
+        input[type="submit"] { padding: 10px 20px; }
+    </style>
+</head>
+<body>
+    <h1>URL Shortener</h1>
+    <form action="/shorten" method="POST">
+        <input type="text" name="long_url" placeholder="Enter your URL here" required>
+        <input type="submit" value="Shorten">
+    </form>
+</body>
+</html>
